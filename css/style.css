@@ -18,7 +18,7 @@ span {
     color: blue;
 }
 p span{
-    color: chartreuse;
+    color: black;
 }
 .first {
     color: red;
@@ -44,11 +44,89 @@ p span{
 .left{
     background-color: red;
 }
+.left:hover{
+    background-color: yellow;
+    cursor: zoom-out;
+
+}
 .right {
     background-color: blue;
 }
+.right:hover{
+    background-color: darkgreen;
+    cursor: zoom-in;
+ }
 .left, .right {
     height: 100px;
     width: 48%;
     display: inline-block;
+}
+.border{
+    background-color: black;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border-bottom: 5px solid yellow ;
+    border-top: 5px solid blue;
+    border-left: 5px solid pink;
+    border-right: 5px solid green;
+    /*border-radius: 50%;*/
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 40px;
+    margin: 26px 0px 0px 0px;
+    padding: 6px;
+}
+.radius{
+    background-color: #8765aa;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border-radius: 40% 60%;
+    border: 10px solid black;
+
+}
+.flagjap{
+    background-color: white;
+    display: inline-block;
+    height: 100px;
+    width: 200px;
+    border: 1px solid black;
+    text-align: center;
+
+
+}
+.redflg{
+    background-color: red;
+    display: inline-block;
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+
+.block1{
+    background-color: black;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+
+}
+
+.block2{
+    background-color: dodgerblue;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+.btn {
+    background-color: silver;
+    display: inline-block;
+    padding-top: 5px;
+    height: 25px;
+    width:25px;
+    border-radius: 10%;
+    text-align: center;
+    margin-top: 10px;
+    border: solid black 1px;
 }
