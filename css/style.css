@@ -1,0 +1,54 @@
+p {
+    color: darkgreen;
+    font-size: 14px;
+    font-style: normal;
+}
+h1 {
+    color: #AA3456;
+    font-family: 'Tangerine', serif;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    font-style: italic;
+}
+span {
+    font-size: large;
+    color: blue;
+}
+p span{
+    color: chartreuse;
+}
+.first {
+    color: red;
+    font-weight: revert;
+
+}
+.second {
+    color: yellow;
+    font-weight: initial;
+    background-color: blue;
+
+}
+.third {
+    color: gray;
+    font-weight: 700;
+}
+.span {
+    background-color: red;
+    color: #FFF;
+    padding: 7px 25px 25px 9px;
+    display: inline-block;
+}
+.left{
+    background-color: red;
+}
+.right {
+    background-color: blue;
+}
+.left, .right {
+    height: 100px;
+    width: 48%;
+    display: inline-block;
+}
