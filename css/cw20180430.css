@@ -1,0 +1,11 @@
+.a1 {
+  background-color: red;
+    display: inline-block;
+    height: 100px;
+}
+
+.b1{
+    background-color: yellow;
+    display: inline-block;
+    height: 100px;
+}
